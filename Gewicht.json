@@ -1,0 +1,104 @@
+{
+  "contract_name": "Gewicht",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getValue",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "value",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "val",
+          "type": "uint256"
+        }
+      ],
+      "name": "setValue",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "val",
+          "type": "uint256"
+        }
+      ],
+      "name": "ValueSet",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x606060405234610000575b60f2806100186000396000f300606060405263ffffffff60e060020a60003504166320965255811460365780633fa4f2451460525780635524107714606e575b6000565b346000576040607d565b60408051918252519081900360200190f35b3460005760406084565b60408051918252519081900360200190f35b34600057607b600435608a565b005b6000545b90565b60005481565b60008190556040805182815290517f012c78e2b84325878b1bd9d250d772cfe5bda7722d795f45036fa5e1e6e303fc9181900360200190a15b505600a165627a7a72305820666f993f7c96844ee2a52e95fbd5a043e8e04c24ee7dfc4c1f22bd3599cfdd170029",
+  "networks": {
+    "1487694548329": {
+      "events": {},
+      "links": {},
+      "address": "0x7ec1dd5df3c32936e67b5d8e4749da387c8ea0f6",
+      "updated_at": 1487698170130
+    },
+    "1487749181859": {
+      "events": {},
+      "links": {},
+      "address": "0x525fede8b7999ef95b43c86e70da6dafef8ca8be",
+      "updated_at": 1487955534784
+    },
+    "1487958144578": {
+      "events": {},
+      "links": {},
+      "address": "0xb27d6974688e6cea074ffde4a0185e43076bf3c0",
+      "updated_at": 1487960053616
+    },
+    "1487962397414": {
+      "events": {},
+      "links": {},
+      "address": "0x6f815f7b8342e6da21c1dd53c78ce327d8fdc5fe",
+      "updated_at": 1487962962349
+    },
+    "1487965838689": {
+      "events": {
+        "0x012c78e2b84325878b1bd9d250d772cfe5bda7722d795f45036fa5e1e6e303fc": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "val",
+              "type": "uint256"
+            }
+          ],
+          "name": "ValueSet",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x35a5efe1563cc7c5fd8449c9b032d7ca56f2803f",
+      "updated_at": 1488019828029
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1488019828029
+}
